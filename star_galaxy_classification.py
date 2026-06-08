@@ -1,8 +1,6 @@
 """
 Star vs Galaxy Classification with Class Weights
 
-Simple Python script for binary image classification.
-
 Goal:
 - Class 0 = Star
 - Class 1 = Galaxy
@@ -11,11 +9,6 @@ The dataset is imbalanced:
 - about 900 star images
 - about 3000 galaxy images
 
-Instead of reducing the dataset to 900 + 900 images, this code uses ALL images
-and handles the imbalance using class weights.
-
-Run:
-python star_galaxy_weighted.py
 """
 
 import os
